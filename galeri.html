@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Dokumentasi dan Galeri Kegiatan Profesional Ezati - Expert Bidang Administrasi dan Digital Marketing.">
+  <meta name="keywords" content="Ezati, Galeri Ezati, Dokumentasi Kegiatan, Foto Kegiatan Admin, Portofolio Marketing, Dokumentasi Proyek">
+  <meta name="author" content="Ezati">
+  <title>Galeri Kegiatan & Dokumentasi | Ezati</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>📸</text></svg>">
+
+  <!-- Google Fonts: Plus Jakarta Sans & Outfit -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@500;600;700;800&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons CDN -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Base Stylesheet & Gallery Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/gallery.css">
+</head>
+<body data-theme="light">
+
+  <!-- Reading Progress Bar -->
+  <div id="scroll-progress" class="scroll-progress"></div>
+
+  <!-- Header & Navbar -->
+  <header class="header" id="header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo">
+        <span class="logo-accent">E</span>zati<span class="logo-dot">.</span>
+      </a>
+
+      <!-- Navigation Links -->
+      <nav class="nav-menu" id="nav-menu">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="index.html#hero" class="nav-link">Beranda CV</a></li>
+          <li class="nav-item"><a href="index.html#tentang" class="nav-link">Tentang</a></li>
+          <li class="nav-item"><a href="index.html#layanan" class="nav-link">Layanan</a></li>
+          <li class="nav-item"><a href="index.html#keahlian" class="nav-link">Keahlian</a></li>
+          <li class="nav-item"><a href="index.html#pengalaman" class="nav-link">Pengalaman</a></li>
+          <li class="nav-item"><a href="index.html#portofolio" class="nav-link">Portofolio</a></li>
+          <li class="nav-item"><a href="galeri.html" class="nav-link active nav-highlight"><i class="fa-solid fa-camera"></i> Galeri Kegiatan</a></li>
+          <li class="nav-item"><a href="index.html#kontak" class="nav-link">Kontak</a></li>
+        </ul>
+      </nav>
+
+      <!-- Action Buttons & Theme Switch -->
+      <div class="nav-actions">
+        <button id="theme-toggle" class="theme-toggle-btn" aria-label="Ganti Mode Gelap/Terang" title="Ubah Tema">
+          <i class="fa-solid fa-moon icon-moon"></i>
+          <i class="fa-solid fa-sun icon-sun"></i>
+        </button>
+
+        <a href="index.html#kontak" class="btn btn-primary btn-sm">
+          <i class="fa-solid fa-paper-plane"></i>
+          <span>Hubungi Ezati</span>
+        </a>
+
+        <button class="menu-toggle-btn" id="menu-toggle" aria-label="Toggle menu navigasi">
+          <i class="fa-solid fa-bars icon-bars"></i>
+          <i class="fa-solid fa-xmark icon-close"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- Gallery Hero Header -->
+    <section class="gallery-hero">
+      <div class="container">
+        <div class="gallery-breadcrumb">
+          <a href="index.html"><i class="fa-solid fa-house"></i> Beranda CV</a>
+          <span>/</span>
+          <span>Galeri Kegiatan & Dokumentasi</span>
+        </div>
+
+        <span class="section-tag"><i class="fa-solid fa-images"></i> Rekam Jejak Visual</span>
+        <h1 class="gallery-hero-title">Galeri Kegiatan & <span class="gradient-text">Aktivitas Nyata</span></h1>
+        <p class="gallery-hero-desc">
+          Kumpulan dokumentasi foto saat merancang strategi pemasaran, menstandarisasi operasional administrasi, memimpin koordinasi acara bisnis, hingga menghadiri sesi pelatihan profesional.
+        </p>
+
+        <!-- Stats Bar -->
+        <div class="gallery-stats">
+          <div class="g-stat">
+            <i class="fa-solid fa-camera text-primary"></i>
+            <div><strong>12+</strong> Dokumentasi Kegiatan</div>
+          </div>
+          <div class="g-stat">
+            <i class="fa-solid fa-layer-group text-primary"></i>
+            <div><strong>4</strong> Kategori Spesialisasi</div>
+          </div>
+          <div class="g-stat">
+            <i class="fa-solid fa-circle-check text-primary"></i>
+            <div><strong>100%</strong> Keterlibatan Langsung</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Controls: Search & Category Filter -->
+    <section class="gallery-controls">
+      <div class="container controls-wrapper">
+        <!-- Live Search Input -->
+        <div class="gallery-search-box">
+          <i class="fa-solid fa-magnifying-glass search-icon"></i>
+          <input type="text" id="gallery-search" class="search-input" placeholder="Cari kegiatan (contoh: SOP, Expo, Workshop, Shooting, Excel)..." autocomplete="off">
+          <button id="search-clear" class="search-clear-btn" title="Hapus pencarian"><i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+        <!-- Filter Category Tabs -->
+        <div class="gallery-filter-tabs">
+          <button class="g-filter-btn active" data-filter="all">
+            <i class="fa-solid fa-border-all"></i> Semua Kegiatan <span class="count-badge">12</span>
+          </button>
+          <button class="g-filter-btn" data-filter="admin">
+            <i class="fa-solid fa-folder-open"></i> Administrasi & Operasional <span class="count-badge">3</span>
+          </button>
+          <button class="g-filter-btn" data-filter="marketing">
+            <i class="fa-solid fa-bullhorn"></i> Marketing & Kampanye <span class="count-badge">3</span>
+          </button>
+          <button class="g-filter-btn" data-filter="event">
+            <i class="fa-solid fa-handshake"></i> Event & Pameran <span class="count-badge">3</span>
+          </button>
+          <button class="g-filter-btn" data-filter="training">
+            <i class="fa-solid fa-graduation-cap"></i> Sertifikasi & Pelatihan <span class="count-badge">3</span>
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Gallery Grid Section -->
+    <section class="gallery-section">
+      <div class="container">
+        <div class="gallery-grid" id="gallery-grid">
+
+          <!-- Photo 1: SOP Admin Coordination -->
+          <article class="gallery-card" data-category="admin"
+            data-full-desc="Sesi perumusan dan standarisasi 15 Standard Operating Procedure (SOP) operasional perusahaan bersama para manajer divisi. Bertindak sebagai lead facilitator yang memastikan setiap alur alokasi dokumen dan validasi data terekam secara jelas tanpa tumpang tindih tanggung jawab."
+            data-highlights='["Merumuskan 15 SOP baru alur kerja kantor", "Dihadiri seluruh kepala departemen & direksi", "Memangkas birokrasi pemrosesan berkas sebesar 35%"]'>
+            <div class="card-media">
+              <span class="card-badge badge-admin"><i class="fa-solid fa-folder"></i> Administrasi</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=80" alt="Rapat SOP Operasional" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Maret 2024</span>
+                <span class="card-views"><i class="fa-solid fa-users"></i> Tim Internal</span>
+              </div>
+              <h3 class="card-title">Rapat Koordinasi Standarisasi SOP Operasional Bisnis</h3>
+              <p class="card-desc">Memimpin workshop evaluasi alur dokumen antar-divisi dan standarisasi formulir kerja terpadu.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Jakarta Selatan</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 2: B2B Expo & Exhibition -->
+          <article class="gallery-card" data-category="event"
+            data-full-desc="Pengelolaan menyeluruh booth pameran bisnis berskala nasional selama 3 hari. Mengatur jadwal piket tim, penyusunan media promosi cetak & digital, menyambut calon mitra strategis, serta mengumpulkan lebih dari 350+ prospek potensial."
+            data-highlights='["Booth dikunjungi lebih dari 1.200 pengunjung", "350+ data prospek terkumpul dan tervalidasi", "Koordinasi lancar dengan tim event organizer"]'>
+            <div class="card-media">
+              <span class="card-badge badge-event"><i class="fa-solid fa-handshake"></i> Event & Expo</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1511578314322-379afb476865?auto=format&fit=crop&w=800&q=80" alt="Pameran Bisnis B2B Expo" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> November 2023</span>
+                <span class="card-views"><i class="fa-solid fa-building"></i> B2B Expo</span>
+              </div>
+              <h3 class="card-title">Eksekusi Booth & Aktivasi Pameran Dagang Nasional</h3>
+              <p class="card-desc">Koordinasi logistik pameran, materi promosi, serta interaksi ramah dengan calon klien potensial.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> JCC Senayan, Jakarta</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 3: Content Production & Creative Shoot -->
+          <article class="gallery-card" data-category="marketing"
+            data-full-desc="Sesi pengarahan kreatif (creative direction) dan shooting video promosi media sosial untuk kampanye peluncuran kuartal kedua. Menulis naskah video pendek (reels/TikTok), mengarahkan talent, serta memvalidasi kesesuaian pesan merek dagang."
+            data-highlights='["Menghasilkan 12 aset video promosi pendek", "Tingkat penayangan video organik mencapai 45.000+ views", "Penyelarasan visual dengan identitas brand"]'>
+            <div class="card-media">
+              <span class="card-badge badge-marketing"><i class="fa-solid fa-bullhorn"></i> Marketing</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=800&q=80" alt="Produksi Konten Kreatif" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Februari 2024</span>
+                <span class="card-views"><i class="fa-solid fa-video"></i> Media Kreatif</span>
+              </div>
+              <h3 class="card-title">Produksi Konten Video & Creative Direction Iklan</h3>
+              <p class="card-desc">Pengarahan naskah dan produksi materi video promosi untuk feed Instagram dan iklan berbayar.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Creative Studio, Tangerang</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 4: Excel Advanced Training -->
+          <article class="gallery-card" data-category="training"
+            data-full-desc="Mengikuti workshop intensif dan uji kompetensi tingkat lanjut untuk pemodelan data finansial dan dashboard KPI menggunakan Microsoft Excel serta integrasi Google BigQuery/Sheets."
+            data-highlights='["Sertifikasi keahlian Excel Advanced Specialist", "Penerapan visualisasi dashboard dinamis", "Meningkatkan kemampuan pemodelan formula kompleks"]'>
+            <div class="card-media">
+              <span class="card-badge badge-training"><i class="fa-solid fa-graduation-cap"></i> Pelatihan</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=800&q=80" alt="Workshop Excel Lanjutan" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Januari 2024</span>
+                <span class="card-views"><i class="fa-solid fa-award"></i> Sertifikasi</span>
+              </div>
+              <h3 class="card-title">Pelatihan Intensif Microsoft Excel Advanced & Data Insight</h3>
+              <p class="card-desc">Pengembangan kompetensi otomatisasi formula, data modeling, dan dynamic executive dashboard.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Lembaga Sertifikasi Bisnis</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 5: Digital Archiving & Document Management -->
+          <article class="gallery-card" data-category="admin"
+            data-full-desc="Proyek restrukturisasi arsip fisik dan berkas penting perusahaan ke cloud storage terenkripsi dengan metadata otomatis. Mengeliminasi tumpukan kertas dan memangkas waktu pencarian dokumen lama dari 20 menit menjadi kurang dari 1 menit."
+            data-highlights='["Digitalisasi lebih dari 2.500+ dokumen kontrak & faktur", "Penerapan hak akses berjenjang antar level staff", "100% perlindungan dari dokumen rusak/hilang"]'>
+            <div class="card-media">
+              <span class="card-badge badge-admin"><i class="fa-solid fa-folder"></i> Administrasi</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?auto=format&fit=crop&w=800&q=80" alt="Digitalisasi Pengarsipan" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> September 2023</span>
+                <span class="card-views"><i class="fa-solid fa-cloud-arrow-up"></i> Cloud Filing</span>
+              </div>
+              <h3 class="card-title">Digitalisasi & Restrukturisasi Sistem Arsip Korporat</h3>
+              <p class="card-desc">Migrasi ribuan lembar dokumen fisik ke sistem basis data cloud berindeks pencarian cepat.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Ruang Arsip Kantor Pusat</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 6: Meta Ads Command Center & Strategy -->
+          <article class="gallery-card" data-category="marketing"
+            data-full-desc="Sesi pemantauan intensif di ruang kendali pemasaran digital saat peluncuran kampanye iklan berbayar (Meta Ads & TikTok). Melakukan fine-tuning target audiens, split test materi copywriting, dan memantau return on ad spend harian."
+            data-highlights='["Mencapai ROAS 3.8x pada minggu pertama kampanye", "Efisiensi biaya per perolehan prospek (CPL) turun 24%", "Laporan analitik instan kepada direktur pemasaran"]'>
+            <div class="card-media">
+              <span class="card-badge badge-marketing"><i class="fa-solid fa-bullhorn"></i> Marketing</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1557804506-669a67965ba0?auto=format&fit=crop&w=800&q=80" alt="Optimalisasi Meta Ads" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Desember 2023</span>
+                <span class="card-views"><i class="fa-solid fa-chart-line"></i> Paid Ads</span>
+              </div>
+              <h3 class="card-title">Optimalisasi Kampanye Iklan Berbayar & Analisis ROAS</h3>
+              <p class="card-desc">Pemantauan metrik konversi iklan Meta Ads secara real-time demi akurasi pengeluaran budget.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Ruang Rapat Pemasaran</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 7: Customer Gathering & Networking Session -->
+          <article class="gallery-card" data-category="event"
+            data-full-desc="Memimpin tim panitia acara Temu Rekan Bisnis & Apresiasi Pelanggan Setia. Mengorganisir agenda acara dari pembagian souvenir berlogo perusahaan, registrasi digital para tamu VIP, hingga sesi ramah tamah interaktif."
+            data-highlights='["Dihadiri 150+ pemangku kepentingan dan mitra setia", "Tingkat kepuasan acara mencapai 98%", "Menghasilkan kontrak perpanjangan kerjasama baru"]'>
+            <div class="card-media">
+              <span class="card-badge badge-event"><i class="fa-solid fa-handshake"></i> Event & Expo</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?auto=format&fit=crop&w=800&q=80" alt="Customer Gathering" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Oktober 2023</span>
+                <span class="card-views"><i class="fa-solid fa-champagne-glasses"></i> Gathering</span>
+              </div>
+              <h3 class="card-title">Aktivasi Brand & Temu Apresiasi Pelanggan Prioritas</h3>
+              <p class="card-desc">Menyelenggarakan acara temu kangen dan networking bagi mitra bisnis serta pelanggan korporat.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Grand Ballroom Hotel, Jakarta</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 8: Google Digital Marketing Professional Certification -->
+          <article class="gallery-card" data-category="training"
+            data-full-desc="Menyelesaikan kurikulum komprehensif Google Career Certificate untuk Digital Marketing & E-Commerce. Menguasai materi search engine optimization (SEO), email marketing automation, customer journey mapping, dan analitik GA4."
+            data-highlights='["Lulus dengan predikat nilai memuaskan", "Diakui secara global oleh Google & Coursera", "Penerapan langsung pada strategi promosi perusahaan"]'>
+            <div class="card-media">
+              <span class="card-badge badge-training"><i class="fa-solid fa-graduation-cap"></i> Pelatihan</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1507679799987-c73779587ccf?auto=format&fit=crop&w=800&q=80" alt="Sertifikasi Google Digital Marketing" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Juli 2023</span>
+                <span class="card-views"><i class="fa-solid fa-certificate"></i> Lisensi</span>
+              </div>
+              <h3 class="card-title">Sertifikasi Google Digital Marketing & E-Commerce</h3>
+              <p class="card-desc">Pencapaian lisensi profesional internasional dalam perancangan funnel dan analitik performa.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Program Resmi Google Career</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 9: Executive Boardroom KPI Presentation -->
+          <article class="gallery-card" data-category="admin"
+            data-full-desc="Mempresentasikan rekapitulasi data efisiensi biaya kantor dan evaluasi pencapaian target kerja kuartalan di hadapan Board of Directors. Menyajikan visual grafik yang informatif dan mudah dicerna untuk pengambilan keputusan strategis."
+            data-highlights='["Paparan data penghematan biaya Rp 45 Juta/tahun", "Apresiasi penuh dari Dewan Direksi", "Rekomendasi alokasi budget disetujui 100%"]'>
+            <div class="card-media">
+              <span class="card-badge badge-admin"><i class="fa-solid fa-folder"></i> Administrasi</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1515187029135-18ee286d815b?auto=format&fit=crop&w=800&q=80" alt="Presentasi Direksi" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Januari 2024</span>
+                <span class="card-views"><i class="fa-solid fa-briefcase"></i> Boardroom</span>
+              </div>
+              <h3 class="card-title">Paparan Laporan Evaluasi Operasional & KPI ke Direksi</h3>
+              <p class="card-desc">Menyajikan dashboard visualisasi data efisiensi pengeluaran dan akurasi rekonsiliasi berkas.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Executive Meeting Room</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 10: Editorial Meeting & Content Planning -->
+          <article class="gallery-card" data-category="marketing"
+            data-full-desc="Memimpin rapat mingguan divisi kreatif untuk merancang 60 konten promosi tematik satu bulan ke depan. Menetapkan tema pilar edukasi, testimoni, penawaran diskon musiman, serta formula copywriting hook pembuka."
+            data-highlights='["Kalender editorial rampung 2 minggu lebih cepat", "Meningkatkan engagement rate rata-rata menjadi 6.8%", "Keteraturan jadwal publikasi tepat waktu"]'>
+            <div class="card-media">
+              <span class="card-badge badge-marketing"><i class="fa-solid fa-bullhorn"></i> Marketing</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1552664730-d307ca884978?auto=format&fit=crop&w=800&q=80" alt="Editorial Content Planning" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> April 2024</span>
+                <span class="card-views"><i class="fa-solid fa-lightbulb"></i> Brainstorming</span>
+              </div>
+              <h3 class="card-title">Penyusunan Kalender Editorial & Strategi Copywriting</h3>
+              <p class="card-desc">Sesi perumusan pilar konten media sosial dan pesan promosi yang persuasif bagi audiens.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Ruang Kolaborasi Kreatif</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 11: Seminar on CRM & Digital Growth -->
+          <article class="gallery-card" data-category="event"
+            data-full-desc="Hadir dan berpartisipasi aktif dalam seminar industri bertajuk Customer Relationship Management dan Automasi Komunikasi Bisnis. Membagikan studi kasus penanganan ribuan chat prospek via WhatsApp Business API."
+            data-highlights='["Sesi tanya jawab studi kasus penanganan lead", "Jejaring koneksi dengan 80+ profesional marketing", "Mendapatkan wawasan terkini tren retensi pelanggan"]'>
+            <div class="card-media">
+              <span class="card-badge badge-event"><i class="fa-solid fa-handshake"></i> Event & Expo</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=800&q=80" alt="Seminar CRM Bisnis" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Agustus 2023</span>
+                <span class="card-views"><i class="fa-solid fa-comments"></i> Seminar</span>
+              </div>
+              <h3 class="card-title">Seminar Strategi CRM & Retensi Pelanggan Era Digital</h3>
+              <p class="card-desc">Berdiskusi mengenai praktik terbaik integrasi database prospek dengan alur follow-up cepat.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Auditorium Pusat Bisnis</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Photo 12: Internal Team Training & Mentoring -->
+          <article class="gallery-card" data-category="training"
+            data-full-desc="Memberikan sesi mentoring dan bimbingan teknis bagi staf administrasi junior mengenai pemanfaatan spreadsheet otomatis, pembuatan memo resmi yang efektif, serta disiplin jadwal pengarsipan berkas."
+            data-highlights='["Melatih 20+ staf operasional dan tim pendukung", "Peningkatan produktivitas tim administrasi junior", "Membangun budaya kerja yang teratur dan rapi"]'>
+            <div class="card-media">
+              <span class="card-badge badge-training"><i class="fa-solid fa-graduation-cap"></i> Pelatihan</span>
+              <img class="card-img" src="https://images.unsplash.com/photo-1531482615713-2afd69097998?auto=format&fit=crop&w=800&q=80" alt="Mentoring Tim Internal" loading="lazy">
+              <div class="card-overlay">
+                <span class="overlay-action-btn"><i class="fa-solid fa-expand"></i></span>
+              </div>
+            </div>
+            <div class="card-content">
+              <div class="card-meta">
+                <span class="card-date"><i class="fa-regular fa-calendar"></i> Mei 2024</span>
+                <span class="card-views"><i class="fa-solid fa-chalkboard-user"></i> Mentoring</span>
+              </div>
+              <h3 class="card-title">Bimbingan Teknis & Pelatihan Administrasi Tim Internal</h3>
+              <p class="card-desc">Berbagi ilmu tata kelola data operasional dan penggunaan tools kerja kolaboratif kepada tim.</p>
+              <div class="card-footer">
+                <span class="card-location"><i class="fa-solid fa-location-dot"></i> Training Center Perusahaan</span>
+                <span class="card-cta">Lihat Detail <i class="fa-solid fa-arrow-right"></i></span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Empty State (Hidden by default, shown when no search results) -->
+          <div class="gallery-empty" id="gallery-empty">
+            <div class="empty-icon"><i class="fa-solid fa-folder-open"></i></div>
+            <h3 class="empty-title">Tidak Ada Foto Kegiatan yang Cocok</h3>
+            <p class="empty-desc">Coba gunakan kata kunci pencarian lain atau pilih kategori kegiatan yang berbeda di atas.</p>
+            <button onclick="document.getElementById('search-clear').click();" class="btn btn-outline btn-sm">
+              <i class="fa-solid fa-rotate-left"></i> Reset Filter Pencarian
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- Call to action Banner -->
+    <section class="section bg-light" style="padding: 3.5rem 0;">
+      <div class="container" style="text-align: center; max-width: 700px;">
+        <span class="section-tag">Siap Berkontribusi</span>
+        <h2 style="font-size: 2rem; margin-bottom: 0.85rem;">Tertarik Menghadirkan Dedikasi Ini di Perusahaan Anda?</h2>
+        <p style="color: var(--text-muted); margin-bottom: 1.75rem;">
+          Ezati siap membawa etos kerja yang teliti dan insting pemasaran yang terukur untuk tim bisnis Anda.
+        </p>
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+          <a href="index.html#kontak" class="btn btn-primary">
+            <i class="fa-solid fa-paper-plane"></i> Hubungi Ezati Sekarang
+          </a>
+          <a href="index.html" class="btn btn-secondary">
+            <i class="fa-solid fa-user-tie"></i> Lihat Curriculum Vitae Lengkap
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Interactive Lightbox Modal -->
+  <div class="lightbox-modal" id="lightbox-modal" role="dialog" aria-modal="true" aria-label="Pratinjau Foto Kegiatan">
+    <div class="lightbox-container">
+      <button class="lightbox-close-btn" id="lightbox-close" aria-label="Tutup jendela">
+        <i class="fa-solid fa-xmark"></i>
+      </button>
+
+      <!-- Media Visual Side -->
+      <div class="lightbox-media">
+        <button class="lightbox-nav-btn lightbox-prev-btn" id="lightbox-prev" aria-label="Foto sebelumnya">
+          <i class="fa-solid fa-chevron-left"></i>
+        </button>
+
+        <img class="lightbox-img" id="lightbox-img" src="" alt="Pratinjau Foto">
+
+        <button class="lightbox-nav-btn lightbox-next-btn" id="lightbox-next" aria-label="Foto berikutnya">
+          <i class="fa-solid fa-chevron-right"></i>
+        </button>
+      </div>
+
+      <!-- Details Information Side -->
+      <div class="lightbox-details">
+        <span class="lb-badge" id="lightbox-badge">Kategori</span>
+        <h2 class="lb-title" id="lightbox-title">Judul Kegiatan</h2>
+
+        <ul class="lb-meta-list">
+          <li><i class="fa-regular fa-calendar"></i> <span id="lightbox-date">Tanggal Kegiatan</span></li>
+          <li><i class="fa-solid fa-location-dot"></i> <span id="lightbox-location">Lokasi Kegiatan</span></li>
+        </ul>
+
+        <h4 class="lb-desc-title">Deskripsi & Peran Ezati:</h4>
+        <p class="lb-desc" id="lightbox-desc">Deskripsi lengkap dari kegiatan ini.</p>
+
+        <div class="lb-highlights">
+          <h5><i class="fa-solid fa-star text-amber"></i> Poin Capaian & Dampak Utama:</h5>
+          <ul id="lightbox-highlights-list">
+            <!-- Dynamic bullets -->
+          </ul>
+        </div>
+
+        <div class="lb-counter" id="lightbox-counter">Foto 1 dari 12</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <div class="footer-brand">
+        <a href="index.html" class="brand-logo footer-logo">
+          <span class="logo-accent">E</span>zati<span class="logo-dot">.</span>
+        </a>
+        <p class="footer-tagline">
+          Expert Administrasi & Digital Marketing. Membangun sistem yang tertib, menyusun strategi yang menghasilkan pertumbuhan.
+        </p>
+      </div>
+
+      <div class="footer-nav">
+        <h4>Navigasi Halaman</h4>
+        <ul>
+          <li><a href="index.html#hero">Beranda CV</a></li>
+          <li><a href="index.html#tentang">Tentang Saya</a></li>
+          <li><a href="index.html#layanan">Layanan Utama</a></li>
+          <li><a href="index.html#keahlian">Keahlian & Tools</a></li>
+          <li><a href="index.html#portofolio">Portofolio Kerja</a></li>
+          <li><a href="galeri.html" style="color: var(--primary); font-weight: 600;">Galeri Kegiatan (Aktif)</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-download">
+        <h4>Hubungi & Kerjasama</h4>
+        <p>Diskusikan peluang rekrutmen maupun kebutuhan proyek operasional bisnis Anda bersama Ezati.</p>
+        <a href="index.html#kontak" class="btn btn-outline btn-sm">
+          <i class="fa-solid fa-envelope"></i> Kirim Pesan Cepat
+        </a>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <div class="container footer-bottom-inner">
+        <p>&copy; <span id="current-year">2026</span> Ezati. Hak Cipta Dilindungi Undang-Undang.</p>
+        <div class="footer-links">
+          <a href="#">Kembali ke Atas <i class="fa-solid fa-arrow-up"></i></a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Back to Top Button -->
+  <button id="back-to-top" class="back-to-top-btn" aria-label="Kembali ke atas" title="Kembali ke atas">
+    <i class="fa-solid fa-chevron-up"></i>
+  </button>
+
+  <!-- Custom JavaScript: Base & Gallery Scripts -->
+  <script src="js/script.js"></script>
+  <script src="js/gallery.js"></script>
+</body>
+</html>
