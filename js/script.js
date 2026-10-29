@@ -1,5 +1,5 @@
 /**
- * EZATI - Expert Admin & Marketing Portfolio
+ * EZATI KAMILA - Digital Marketing Strategist & Business Analyst
  * Interactive Functionality & Modern UI Logic
  */
 
@@ -266,13 +266,13 @@ function initContactForm() {
   // Direct WhatsApp Button click
   if (btnWhatsApp) {
     btnWhatsApp.addEventListener('click', () => {
-      const name = document.getElementById('sender-name')?.value.trim() || 'Rekan Bisnis';
+      const name = document.getElementById('sender-name')?.value.trim() || 'Rekan Bisnis / Recruiter';
       const email = document.getElementById('sender-email')?.value.trim() || '-';
-      const service = document.getElementById('service-type')?.value || 'Diskusi Umum';
-      const message = document.getElementById('sender-message')?.value.trim() || 'Tertarik untuk bekerjasama.';
+      const service = document.getElementById('service-type')?.value || 'Konsultasi Strategis';
+      const message = document.getElementById('sender-message')?.value.trim() || 'Halo Ezati Kamila, saya tertarik untuk mendiskusikan peluang kerjasama / posisi profesional.';
 
-      const waNumber = '6281234567890'; // Replace with Ezati's real WhatsApp
-      const waText = `Halo Ezati,\n\nNama: ${name}\nEmail: ${email}\nTopik: ${service}\n\nPesan:\n${message}`;
+      const waNumber = '6281234567890'; // Sesuaikan nomor WhatsApp Ezati Kamila
+      const waText = `Halo Ezati Kamila,\n\nNama/Perusahaan: ${name}\nEmail: ${email}\nTopik Kebutuhan: ${service}\n\nPesan:\n${message}`;
 
       const waUrl = `https://wa.me/${waNumber}?text=${encodeURIComponent(waText)}`;
       window.open(waUrl, '_blank');
@@ -303,7 +303,7 @@ function initContactForm() {
       setTimeout(() => {
         submitBtn.innerHTML = originalBtnHtml;
         submitBtn.disabled = false;
-        showAlert(`Terima kasih Bapak/Ibu ${name}! Pesan Anda mengenai "${service}" telah berhasil terkirim. Ezati akan segera merespons ke email (${email}) Anda.`, 'success');
+        showAlert(`Terima kasih Bapak/Ibu ${name}! Pesan Anda mengenai "${service}" telah berhasil dikirim. Ezati Kamila akan segera merespons ke email (${email}) Anda dalam waktu 1x24 jam kerja.`, 'success');
         form.reset();
       }, 1000);
     });

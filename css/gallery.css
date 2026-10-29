@@ -302,9 +302,9 @@
   gap: 0.35rem;
 }
 
-.badge-admin { border-left: 3px solid #3b82f6; }
+.badge-admin, .badge-analytics { border-left: 3px solid #3b82f6; }
 .badge-marketing { border-left: 3px solid #a855f7; }
-.badge-event { border-left: 3px solid #f59e0b; }
+.badge-event, .badge-process, .badge-workshop { border-left: 3px solid #f59e0b; }
 .badge-training { border-left: 3px solid #10b981; }
 
 /* Card Content Details */

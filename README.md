@@ -1,5 +1,5 @@
-# 📄 Website Portofolio & CV Profesional - Ezati
-> **Expert Bidang Administrasi & Digital Marketing**
+# 📄 Website Portofolio & CV Profesional - Ezati Kamila
+> **Digital Marketing Strategist & Business Analyst**
 
 Website ini dirancang secara modern, interaktif, responsif, dan siap kerja (*production-ready*) menggunakan **HTML5, CSS3 kustom, dan Vanilla JavaScript**.
 
@@ -8,8 +8,8 @@ Website ini dirancang secara modern, interaktif, responsif, dan siap kerja (*pro
 ## 🌟 Fitur Utama Website
 
 1. **Desain Modern & Profesional**:
-   - Skema warna elegan dengan aksen biru profesional (*trust*), indigo, dan emerald (*ketelitian & pertumbuhan*).
-   - Tipografi premium menggunakan font Google **Plus Jakarta Sans** & **Outfit**.
+   - Skema warna elegan dengan aksen biru profesional (*trust*), indigo, dan emerald (*analisis & pertumbuhan*).
+   - Tipografi premium menggunakan Google Fonts **Plus Jakarta Sans** & **Outfit**.
    - Desain responsif sempurna untuk **Desktop, Laptop, Tablet, dan Smartphone**.
 
 2. **Mode Gelap / Terang (Dark Mode & Light Mode)**:
@@ -20,23 +20,23 @@ Website ini dirancang secara modern, interaktif, responsif, dan siap kerja (*pro
    - Dilengkapi fungsi cetak cerdas. Saat tombol **"Unduh CV"** diklik, halaman akan membuka jendela cetak/PDF dan memformat dokumen secara otomatis menjadi resume bersih (tanpa tombol navigasi, tanpa menu, format ramah cetak A4).
 
 4. **Kategori Interaktif (Filtering)**:
-   - **Keahlian (Skills)**: Tab filter antara *Semua Keahlian*, *Bidang Administrasi*, *Bidang Marketing*, dan *Software & Tools*.
-   - **Portofolio (Studi Kasus)**: Tab filter antara *Semua Proyek*, *Sistem Administrasi*, *Kampanye Marketing*, dan *Dashboard & Data*.
+   - **Keahlian (Skills)**: Tab filter antara *Semua Keahlian*, *Digital Marketing Strategy*, *Business Analysis & Data*, dan *Software & Platform*.
+   - **Portofolio (Studi Kasus)**: Tab filter antara *Semua Proyek*, *Digital & Performance Marketing*, *Business Analytics & Dashboards*, dan *Optimasi Proses & CRO*.
 
 5. **Counter Animasi Metrik**:
-   - Angka pencapaian (5+ Tahun, 90+ Proyek, 98% Kepuasan, 35% Efisiensi) beranimasi otomatis saat digulir (*scrolled into view*).
+   - Angka pencapaian (5+ Tahun Pengalaman, 120+ Proyek, 98% Kepuasan, 35% Efisiensi) beranimasi otomatis saat digulir (*scrolled into view*).
 
 6. **Formulir Kontak Terintegrasi & WhatsApp Cepat**:
    - Formulir pesan dengan validasi interaktif dan notifikasi sukses.
-   - Tombol **"Kirim ke WhatsApp"** yang otomatis merangkai pesan nama, email, dan kebutuhan ke tautan chat WhatsApp resmi Ezati.
+   - Tombol **"Kirim ke WhatsApp"** yang otomatis merangkai pesan nama, email, dan kebutuhan ke tautan chat WhatsApp resmi Ezati Kamila.
 
 7. **Reading Progress Bar & Back-to-Top**:
    - Indikator progres baca di bagian paling atas layar dan tombol kembali ke atas yang halus.
 
 8. **Halaman Khusus Galeri Kegiatan (`galeri.html`)**:
-   - Dokumentasi foto kegiatan profesional Ezati di bidang admin, marketing, pameran bisnis, dan pelatihan.
-   - Fitur **Pencarian Langsung (Live Search)** berdasarkan kata kunci (contoh: "SOP", "Expo", "Excel", "Shooting").
-   - Filter kategori: *Semua*, *Administrasi & Operasional*, *Marketing & Kampanye*, *Event & Pameran*, dan *Sertifikasi & Pelatihan*.
+   - Dokumentasi foto kegiatan profesional Ezati Kamila saat workshop strategi, presentasi dashboard BI ke direksi, pemetaan proses BPMN, dan pelatihan sertifikasi.
+   - Fitur **Pencarian Langsung (Live Search)** berdasarkan kata kunci (contoh: "Meta Ads", "Power BI", "BPMN", "CRO").
+   - Filter kategori: *Semua*, *Strategi & Marketing*, *Business Analytics & BI*, *Proses Bisnis & CRO*, dan *Sertifikasi & Pelatihan*.
    - **Pratinjau Foto Interaktif (Lightbox Modal)** lengkap dengan navigasi foto sebelumnya/berikutnya, poin capaian utama, deskripsi peran, dan dukungan tombol keyboard (`Esc`, panah kiri/kanan).
 
 ---
@@ -45,14 +45,15 @@ Website ini dirancang secara modern, interaktif, responsif, dan siap kerja (*pro
 
 ```
 c:\ezati-cv\
-├── index.html          # Halaman utama: CV & Portofolio Ezati
-├── galeri.html         # Halaman baru: Galeri Foto & Dokumentasi Kegiatan
+├── index.html          # Halaman utama: CV & Portofolio Ezati Kamila
+├── galeri.html         # Halaman galeri: Foto & Dokumentasi Kegiatan Nyata
 ├── css\
 │   ├── style.css       # Desain dasar, tema terang/gelap & @media print
 │   └── gallery.css     # Desain kartu galeri, filter, search, & modal lightbox
 ├── js\
 │   ├── script.js       # Logika interaktif tema, scroll, form & drawer
 │   └── gallery.js      # Logika filter galeri, live search & navigasi lightbox
+├── push-ke-github.bat  # Script otomatis untuk upload ke GitHub
 └── README.md           # Panduan lengkap penggunaan & kustomisasi
 ```
 
@@ -66,9 +67,8 @@ c:\ezati-cv\
 3. Website akan langsung terbuka di browser favorit Anda (Google Chrome, Microsoft Edge, Mozilla Firefox, dll) tanpa memerlukan instalasi aplikasi tambahan!
 
 ### Menjalankan dengan Local Web Server (Opsional):
-Jika Anda memiliki ekstensi **Live Server** di VS Code atau Python:
+Jika Anda memiliki Python terinstal:
 ```bash
-# Menggunakan Python:
 cd c:\ezati-cv
 python -m http.server 8000
 ```
@@ -76,34 +76,20 @@ Lalu buka `http://localhost:8000` di browser.
 
 ---
 
-## ✏️ Panduan Kustomisasi Data Ezati
+## ✏️ Panduan Kustomisasi Data Ezati Kamila
 
-Anda dapat membuka file `index.html` menggunakan editor teks (VS Code, Notepad, Notepad++, Sublime Text) untuk memperbarui data:
+Anda dapat membuka file `index.html` dan `galeri.html` menggunakan editor teks (VS Code, Notepad, Notepad++, Sublime Text) untuk memperbarui data:
 
 1. **Mengubah Kontak & WhatsApp**:
-   - Cari kata `6281234567890` di `index.html` dan `js/script.js`, lalu ganti dengan nomor WhatsApp aktif Anda (gunakan kode negara `62` tanpa tanda `+` di awal link `wa.me`).
-   - Cari kata `ezati.profesional@gmail.com` dan ubah sesuai email aktif Anda.
+   - Cari kata `6281234567890` di `index.html` dan `js/script.js`, lalu ganti dengan nomor WhatsApp aktif Anda (gunakan format kode negara `62` tanpa tanda `+` di awal link `wa.me`).
+   - Cari kata `ezati.kamila@gmail.com` dan ubah sesuai email aktif Anda.
 
 2. **Menambahkan Foto Asli**:
    - Di bagian Hero section (`<div class="avatar-circle">`), Anda dapat mengganti icon placeholder `<i class="fa-solid fa-user-tie"></i>` dengan foto Anda:
      ```html
-     <img src="assets/foto-ezati.jpg" alt="Ezati" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
+     <img src="assets/foto-ezati.jpg" alt="Ezati Kamila" style="width: 100%; height: 100%; border-radius: 50%; object-fit: cover;">
      ```
 
-3. **Mengubah Riwayat Kerja & Pendidikan**:
-   - Temukan bagian `<section id="pengalaman">` di `index.html` untuk menyesuaikan nama perusahaan, tahun, posisi, dan poin pencapaian Anda.
-
----
-
-## 🌐 Cara Mempublikasikan ke Internet (Online Gratis)
-
-Website ini adalah website statis (*static site*), sehingga bisa di-hosting secara 100% gratis melalui:
-
-1. **GitHub Pages**:
-   - Buat repositori baru di GitHub.
-   - Unggah semua file dari `c:\ezati-cv`.
-   - Buka menu **Settings > Pages** dan pilih branch `main`. Website Anda akan langsung online dengan alamat `https://username.github.io/ezati-cv`.
-
-2. **Vercel / Netlify**:
-   - Tarik (*drag and drop*) folder `c:\ezati-cv` ke dashboard [Netlify Drop](https://app.netlify.com/drop).
-   - Website akan online dalam 5 detik dengan alamat URL khusus yang bisa dibagikan ke recruiter / klien.
+3. **Mengunggah Pembaruan ke GitHub**:
+   - Cukup klik dua kali (*double click*) pada file **`push-ke-github.bat`** di folder `c:\ezati-cv`.
+   - Script akan otomatis melakukan commit dan push seluruh perubahan ke repository GitHub Anda!

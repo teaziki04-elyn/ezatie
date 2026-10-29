@@ -1,8 +1,8 @@
 @echo off
-title Push Project Ezati ke GitHub
+title Push Project Ezati Kamila ke GitHub
 color 0B
 echo ================================================================
-echo          MENGUNGGAH PROYEK CV EZATI KE GITHUB
+echo       MENGUNGGAH PROYEK CV EZATI KAMILA KE GITHUB
 echo   Target: https://github.com/teaziki04-elyn/ezatie.git
 echo ================================================================
 echo.
@@ -14,7 +14,7 @@ git remote set-url origin https://github.com/teaziki04-elyn/ezatie.git
 
 echo [2/3] Memeriksa status commit...
 git add .
-git commit -m "Update: Website CV & Galeri Kegiatan Ezati" 2>nul
+git commit -m "Update: Website CV Ezati Kamila - Digital Marketing Strategist & Business Analyst" 2>nul
 
 echo [3/3] Melakukan git push ke branch main...
 echo.
